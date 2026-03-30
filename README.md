@@ -8,4 +8,5 @@
 ![c9c94c80-1bee-4ba8-a1cf-c57d4aebd490](https://github.com/user-attachments/assets/b7c6b3d8-5e56-41fd-ada0-2e3e9ca50059)
 <img width="1849" height="264" alt="image" src="https://github.com/user-attachments/assets/3836b4dd-3d61-41eb-9839-c47ab6a8f2fc" />
 
-<img width="1315" height="296" alt="image" src="https://github.com/user-attachments/assets/9246641e-611d-46eb-8faf-be3659078228" />
+
+<img width="1544" height="348" alt="image" src="https://github.com/user-attachments/assets/34d9ee84-93f0-4c21-a02c-b1b6e4be72f7" />
