@@ -1,29 +1,42 @@
 class Parent{
     Parent(){
-        system.out.println("Parent Constructor");
+        System.out.println("Parent constructor");
     }
 }
-class chiild extends Parent{
+
+class child extends Parent{
     static{
         System.out.println("Static block executed");
     }
-    void(){
-        this(10);
+    
+    child(){
+        super();
         System.out.println("Default constructor");
     }
-
+    
     child(int x){
-        System,out.println("parameterized constructor", x);
+        super();
+        System.out.println("Parameterized constructor" + x);
     }
+    
     void display(){
         System.out.println("Display method with no parameter");
     }
-    void display(int x){
-        System.out.println("Display method with parameter" + a);
-        System.out.println("marks:" + marks );
+    
+    void display(int a){
+        System.out.println("Display method with one parameter" + a);
     }
-    public static void main(String[] args)
-    {
-        Result obj = new Result("")
+    
+    static void show(){
+        System.out.println("static method called");
+    }
+}
+
+class Main{
+    public static void main(String[] args){
+        child obj = new child();
+        obj.display();
+        obj.display(5);
+        child.show();
     }
 }
